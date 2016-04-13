@@ -1,0 +1,20 @@
+{
+  "name": "angular-bootstrap3-typeahead",
+  "version": "0.0.1",
+  "authors": [
+    "davidkonrad <davidkonrad@gmail.com>"
+  ],
+  "main": [
+    "angular-bootstrap3-typeahead.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7.0"
+  }
+}
