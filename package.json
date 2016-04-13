@@ -1,0 +1,26 @@
+{
+  "name": "angular-bootstrap3-typeahead",
+  "version": "0.0.1",
+  "description": "Angular directive for bootstrap3-typeahead",
+  "main": "angular-bootstrap3-typeahead.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidkonrad/angular-bootstrap3-typeahead.git"
+  },
+  "keywords": [
+    "angular",
+    "typeahead",
+    "bootstrap"
+  ],
+  "author": {
+		"name" : "David Konrad",
+		"email" : "davidkonrad@gmail.com"
+	},
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidkonrad/angular-bootstrap3-typeahead/issues"
+  },
+  "homepage": "https://github.com/davidkonrad/angular-bootstrap3-typeahead#readme"
+}

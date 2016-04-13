@@ -110,10 +110,10 @@ $scope.afterSelect = function(item) {
 		
 ###Using `bs3-promise`
 
-bs3-promise is a special option that let you assign a `source` with a delay. This can be useful if you need to use a `source` which origin from a service, a remote file or similar. It is a simple but effective attempt to angularish' the typehead. Example :
+`bs3-promise` is a special attribute that let you assign a `source` with a delay. This can be useful if you need to use a `source` which origin from a service, a remote file or similar. It is a simple but effective attempt to angularish' the typeahead. Example :
 
 ```js
-$html.get('my-remote-file.json').then(function(response) {
+$http.get('my-remote-file.json').then(function(response) {
 	$scope.items = response
 })
 ```
@@ -121,11 +121,7 @@ $html.get('my-remote-file.json').then(function(response) {
 <input bs3-typeahead bs3-promise="items" />
 ```
 
-`bs3-promise` does not actually use promises. If you specify `bs3-promise` then the directive will simply wait and `$watch` the referred `$scope` variable; once the variable is set, the typeahead is initialised. 
-This also mean, that if you later on change the variable you are referring to in `bs3-promise`, then the typeahead will be _reinitailised_ with the new items as `source`.
-
-
-
-
-
+`bs3-promise` does _not_ actually use promises. If you specify `bs3-promise` then the directive will simply wait and `$watch` the referred `$scope` variable. Once the variable is set the typeahead is initialised. 
+This also mean, that if you later on change the variable you are referring to in `bs3-promise`, then the typeahead will be _reinitailised_ with the new variable as `source`. 
+`bs3-promise` let you easily change source on the fly.
 
