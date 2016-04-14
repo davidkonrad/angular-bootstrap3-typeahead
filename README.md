@@ -5,6 +5,8 @@ AngularJS directive for the [Bootstrap 3 Typeahead](https://github.com/bassjobse
 
 ##Usage
 
+**tl;dr** classic `states` demo introducing `ng-model` **http://plnkr.co/edit/TTE3LludaCD9JxH2QJeR?p=preview**
+
 ###Installation
 ```shell
 $ bower install angular-bootstrap3-typeahead
