@@ -32,7 +32,7 @@ angular.module('bootstrap3-typeahead')
 					showHintOnFocus: false,
 					scrollHeight: 0,
 					displayText: null,
-					afterSelect: null,
+					afterSelect: $.noop,
 					addItem: false,
 					autoSelect: true,
 					delay: 0,
