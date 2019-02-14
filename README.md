@@ -3,11 +3,11 @@ angular-bootstrap3-typeahead
 
 AngularJS directive for the [Bootstrap 3 Typeahead](https://github.com/bassjobsen/Bootstrap-3-Typeahead/) jQuery plugin.
 
-##Usage
+## Usage
 
 **tl;dr** classic `states` demo introducing `ng-model` **http://plnkr.co/edit/TTE3LludaCD9JxH2QJeR?p=preview**
 
-###Installation
+### Installation
 ```shell
 $ bower install angular-bootstrap3-typeahead
 ```
@@ -18,7 +18,7 @@ or
 $ npm install angular-bootstrap3-typeahead
 ```
 
-###Registration
+### Registration
 
 To be able to use the directive, you need to register the `angular-bootstrap3-typeahead` module as a dependency:
 
@@ -28,7 +28,7 @@ angular.module('yourModule', ['bootstrap3-typeahead'
 ]);
 ```
 
-###Directive
+### Directive
 The directive maps declarative `bs3`-* attributes to their respective typeahead equivalences. The following example contains all of the supported attributes :
 
 ```html
@@ -57,7 +57,7 @@ The directive maps declarative `bs3`-* attributes to their respective typeahead 
 
 For all the well known standard options I refer to the [bootstrap3-typehead documentation](https://github.com/bassjobsen/Bootstrap-3-Typeahead#options). For the use of `bs3-promise`, a specialized option for `bootstrap3-typeahead`, se below. 
 
-###Example
+### Example
 
 Consider the following usage of `bootstrap3-typeahead` in an AngularJS app using [AngularStrap](http://mgcrea.github.io/angular-strap/) (a better and more clean bootstrap implementation over the official Bootstrap UI) 
 
@@ -110,7 +110,7 @@ $scope.afterSelect = function(item) {
 }
 ```
 		
-###Using `bs3-promise`
+### Using `bs3-promise`
 
 `bs3-promise` is a special attribute that let you assign a `source` with a delay. This can be useful if you need to use a `source` which origin from a service, a remote file or similar. It is a simple but effective attempt to angularish' the typeahead. Example :
 
